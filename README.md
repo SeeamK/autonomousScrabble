@@ -38,7 +38,14 @@ For both versions, the turn() function was altered so that the player named "AI"
 
 ## Work breakdown
 
-Seeam: I started off by understanding the existing game logic and how to go about implementing an ai agent. I assisted in both the MCTS and Greedy implementations. For MCTS I implemented the expansion and backpropgation logic, and integrated the aiAgent in scrabbleGreedy.py after figuring it out with my teamates. 
+Seeam: I started off by understanding the existing game logic and how to go about implementing an ai agent. I assisted in both the MCTS and Greedy implementations. For MCTS I implemented the expansion and backpropgation logic, and integrated the aiAgent in scrabbleGreedy.py after figuring it out with my teammates. 
+
+Yusef: 
+
+
+Abdulrahman: I assisted in both MCTS and Greedy agent implementations, and I worked with the team to make AI agent class for scrabbleGreedy and implemented simulate moving logic for MCTS(which unfortunately doesn't fully work)
+
+
 
 ## To run the game (part of description taken from original github)
 To play any version of the game:
