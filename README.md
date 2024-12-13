@@ -36,6 +36,10 @@ For both versions, the turn() function was altered so that the player named "AI"
   - The MCTS agent also takes a lot more time than the greedy agent to make a decesion, sometimes taking up to 2min.
   - We ended up measuring failure for the MCTS agent since it didnt work, we found that arounf half the time it would win and the other half it wouldn't.
 
+## Work breakdown
+
+Seeam: I started off by understanding the existing game logic and how to go about implementing an ai agent. I assisted in both the MCTS and Greedy implementations. For MCTS I implemented the expansion and backpropgation logic, and integrated the aiAgent in scrabbleGreedy.py after figuring it out with my teamates. 
+
 ## To run the game (part of description taken from original github)
 To play any version of the game:
   1) run `python scrabbleGreedy.py` or `python scrabbleMCTS.py`
